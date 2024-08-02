@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-shadow: 0 0 6px rgba(0, 0, 0, 60%);
+    font-size: 5rem;
+    padding-left: 50px;
+    animation: dist 01s linear;
+    color: rgba(255, 255, 255, 0.955);
+}
+
+p {
+    font-size: large;
+    padding: 40px;
+    color: rgba(255, 255, 255, 0.955);
+}
+
+@keyframes dist {
+    0% {
+        transform: translatey(-100px);
+    }
+
+    100% {
+        transform: translate(0px);
+    }
+}
+
+.div_1,
+.div_2,
+.div_3,
+.div_4,
+.div_5 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.div_1 {
+    background-color: rgb(37, 37, 37);
+}
+
+.div_2 {
+    background-color: #194567;
+}
+
+.div_3 {
+    background-color: #8d2424;
+}
+
+.div_4 {
+    background-color: #83a7d3;
+}
+
+.div_5 {
+    background-color: rgb(49, 48, 57);
+}
+
+.div_c1,
+.div_c2,
+.div_c3,
+.div_c4,
+.div_c5 {
+    height: 110vh;
+    width: 100vw;
+    background-attachment: fixed;
+}
+
+.div_c1 {
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-right: 1000px;
+    background-image: url("./images/wallpaperflare.com_wallpaper\ \(4\).jpg ");
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.div_c2 {
+    padding-top: 230px;
+    padding-left: 950px;
+    padding-right: 10px;
+    background-image: url("./images/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.div_c3 {
+    background-image: url("./images/wallpaperflare.com_wallpaper\ \(6\).jpg ");
+    background-size: cover;
+}
+
+.div_c4 {
+    padding-top: 120px;
+    padding-left: 840px;
+    padding-right: 100px;
+    background-image: url("./images/wallpaperflare.com_wallpaper\ \(1\).jpg ");
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.div_c5 {
+    padding-top: 220px;
+    padding-left: 40px;
+    padding-right: 900px;
+    background-image: url("./images/pexels-eberhardgross-1367192.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+}
