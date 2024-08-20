@@ -113,3 +113,74 @@ p {
     background-size: cover;
     box-sizing: border-box;
 }
+
+
+.div_1 h1,
+.div_1 p,
+.div_2 h1,
+.div_2 p,
+.div_3 h1,
+.div_3 p,
+.div_4 h1,
+.div_4 p,
+.div_5 h1,
+.div_5 p {
+    animation: top 8s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes top {
+    0% {
+        opacity: 0;
+        scale: 2.5;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+
+}
+
+.div_c2 p,
+.div_c2 h1,
+.div_c4 p,
+.div_c4 h1 {
+    animation: side1 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes side1 {
+    0% {
+        opacity: 0;
+        transform: translate(300px);
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+.div_c1 p,
+.div_c1 h1,
+.div_c5 p,
+.div_c5 h1 {
+    animation: side2 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+@keyframes side2 {
+    0% {
+        opacity: 0;
+        transform: translate(-300px);
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+
+}
